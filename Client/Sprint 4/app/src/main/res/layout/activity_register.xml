@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.arjun.sprint2.register">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ebf8fd">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText5"
+        android:hint="First Name"
+        android:paddingTop="50dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText6"
+        android:hint="Second Name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText7"
+        android:hint="Phone or Email"
+        android:paddingTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:id="@+id/textView8"
+        android:paddingTop="30dp" />
+
+    <Spinner
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/gender"
+        android:id="@+id/spinner" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Birthday"
+        android:id="@+id/textView9"
+        android:paddingTop="30dp" />
+
+    <EditText
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4"
+        android:width="216dp"
+        android:hint="Day" />
+
+    <EditText
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText8"
+        android:width="50dp"
+        android:hint="Month" />
+
+    <EditText
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText9"
+        android:hint="Year" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText10"
+        android:hint="Password"
+        android:paddingTop="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:text="By clicking Sign Up you agree to our Facebook Terms and Condition that you have read our Data Policy including our Cookie use. You may Resieve Notification from Facebook and can opt out at any time"
+        android:id="@+id/textView5"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp" />
+
+    <Button
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:id="@+id/button5"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:background="#0307dc" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account?."
+        android:id="@+id/textView6"
+        android:textColor="#0900aa"
+        android:paddingTop="30dp" />
+</LinearLayout>
+
+</ScrollView>
