@@ -48,6 +48,7 @@ public class Login extends AppCompatActivity {
 
             }
         });
+
 //        reg.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //
